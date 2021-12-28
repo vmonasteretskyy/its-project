@@ -833,15 +833,16 @@
 
     h3 {
         font-weight: bold;
-        font-size: 64px;
+        font-size: 74px;
         line-height: 100%;
         text-align: center;
         font-family: 'Corinthia', cursive;
         margin-bottom: 50px;
-        color: #A68861;
-        background: linear-gradient(90deg, #8F7047 -7%, #DABD9A 50.07%, #A58A63 105%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: #bb9f7a;
+        // color: #A68861;
+        // background: linear-gradient(90deg, #8F7047 -7%, #DABD9A 50.07%, #A58A63 105%);
+        // -webkit-background-clip: text;
+        // -webkit-text-fill-color: transparent;
     }
 
     .diplomas__wrappslider {
@@ -1392,6 +1393,9 @@
     color: #000;
 }
 
+.testimonial-sect {
+    height: 100%;
+}
 
 // font-family: 'Corinthia', cursive;
 // font-family: 'Poppins', sans-serif;

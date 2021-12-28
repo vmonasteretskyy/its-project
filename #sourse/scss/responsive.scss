@@ -1567,7 +1567,10 @@
         line-height: 21px;
     }
 
-
+    .mediaoutlets.mediaoutlets_tel .swiper-button-next-unique.s,
+    .mediaoutlets.mediaoutlets_tel .swiper-button-prev-unique.s {
+        display: none;
+    }
 
 
 

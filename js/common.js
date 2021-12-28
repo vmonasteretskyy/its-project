@@ -235,7 +235,11 @@ $(document).ready(function () {
     });
 
 
-
+    // custom select
+    // $(".custom-select").select2({
+    //     placeholder: "Please select",
+    //     minimumResultsForSearch: Infinity
+    // });
 
 
 

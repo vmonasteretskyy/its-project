@@ -1,0 +1,33 @@
+.courses-section {
+    position: relative;
+    padding: 240px 0 103px;
+
+    &:after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 920px;
+        background-image: url('../img/coursesbg.png');
+        position: absolute;
+        left: 0;
+        top: 0;
+
+    }
+}
+
+.courses-section__topsect {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+
+    h1 {
+        color: #fff;
+        margin-bottom: 74px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 140%;
+    }
+}
+
+.courses-section__selectsbox {}

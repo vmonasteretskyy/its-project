@@ -166,15 +166,15 @@
     h3 {
         text-align: center;
         font-weight: bold;
-        font-size: 64px;
+        font-size: 74px;
         line-height: normal;
         font-family: 'Corinthia', cursive;
-        color: #A68861;
+        // color: #A68861;
         margin-bottom: 54px;
-
-        background: linear-gradient(90deg, #8F7047 -7%, #DABD9A 50.07%, #A58A63 105%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: #bb9f7a;
+        // background: linear-gradient(90deg, #8F7047 -7%, #DABD9A 50.07%, #A58A63 105%);
+        // -webkit-background-clip: text;
+        // -webkit-text-fill-color: transparent;
     }
 
 }
@@ -1382,6 +1382,14 @@
 .expslider,
 .infotextblock_smore2 {
     display: none;
+}
+
+.infosect .infotextblock p,
+.startcareer__textbox p,
+.testimonial-sect .description,
+.infosect2 .infosect__left .description,
+.unmatchedexp__textsect .descr {
+    color: #000;
 }
 
 

@@ -93,11 +93,19 @@ $(document).ready(function () {
 
     var swiper2 = new Swiper(".diplomas-slider2", {
         slidesPerView: "auto",
-        spaceBetween: 30,
+
         loop: true,
         navigation: {
             nextEl: '.swiper-button-next-unique.s',
             prevEl: '.swiper-button-prev-unique.s'
+        },
+        breakpoints: {
+            320: {
+                spaceBetween: 20,
+            },
+            576: {
+                spaceBetween: 30,
+            },
         },
     });
 

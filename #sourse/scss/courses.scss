@@ -30,4 +30,20 @@
     }
 }
 
-.courses-section__selectsbox {}
+.courses-section__selectsbox {
+    .select2.select2-container {
+        width: 260px !important;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+        line-height: 48px;
+        text-align: left;
+    }
+
+    .select2-container--default .select2-selection--single {
+        background: transparent;
+        border: 1px solid #FFFFFF;
+        border-radius: 0;
+        height: 48px;
+    }
+}

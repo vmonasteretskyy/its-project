@@ -36,15 +36,7 @@ $(document).ready(function () {
     });
 
     // slider navs
-    let container = document.querySelector('.container');
-    let sliderElBox = document.querySelector('.slider-elements');
-    let windowWidth = window.innerWidth;
-    let containerWidth = container.offsetWidth;
-    let paddingSide = (windowWidth - containerWidth) / 2;
-
-    sliderElBox.style.right = paddingSide + 'px';
-
-    $(window).resize(function () {
+    if ($('*').is('.slider-elements')) {
         let container = document.querySelector('.container');
         let sliderElBox = document.querySelector('.slider-elements');
         let windowWidth = window.innerWidth;
@@ -52,7 +44,18 @@ $(document).ready(function () {
         let paddingSide = (windowWidth - containerWidth) / 2;
 
         sliderElBox.style.right = paddingSide + 'px';
-    });
+
+        $(window).resize(function () {
+            let container = document.querySelector('.container');
+            let sliderElBox = document.querySelector('.slider-elements');
+            let windowWidth = window.innerWidth;
+            let containerWidth = container.offsetWidth;
+            let paddingSide = (windowWidth - containerWidth) / 2;
+
+            sliderElBox.style.right = paddingSide + 'px';
+        });
+    }
+
 
 
     // header submenu
@@ -236,10 +239,14 @@ $(document).ready(function () {
 
 
     // custom select
-    // $(".custom-select").select2({
-    //     placeholder: "Please select",
-    //     minimumResultsForSearch: Infinity
-    // });
+
+    if ($('*').is('select')) {
+        $(".custom-select").select2({
+            placeholder: "Please select",
+            minimumResultsForSearch: Infinity
+        });
+    }
+
 
 
 

@@ -79,7 +79,7 @@ $(document).ready(function () {
     var swiper2 = new Swiper(".diplomas-slider", {
         slidesPerView: "auto",
         spaceBetween: 20,
-        loop: true,
+        loop: false,
         navigation: {
             nextEl: '.swiper-button-next-unique.f',
             prevEl: '.swiper-button-prev-unique.f'

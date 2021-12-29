@@ -1,0 +1,105 @@
+.aboutus-section {
+    padding: 184px 0 64px 0;
+
+    h1 {
+        text-align: center;
+        margin: 0 0 64px 0;
+        color: #000;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 140%;
+    }
+
+    h5 {
+        color: #000;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 150%;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 150%;
+        color: #000;
+    }
+
+    .imgwrap {
+        position: relative;
+        margin: 78px 0;
+
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            height: calc(100% + 60px);
+            background: linear-gradient(122.83deg, #8F7047 -18.24%, #DABD9A 49.75%, #A58A63 115.2%);
+            opacity: 0.2;
+            max-width: 784px;
+            width: 100%;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            z-index: -1;
+            top: -30px;
+        }
+
+    }
+}
+
+
+@media(max-width:1600.8px) {
+    .aboutus-section h1 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+@media(max-width:991.8px) {
+    .aboutus-section {
+        padding-top: 140px;
+    }
+
+    .aboutus-section h1 {
+        margin-bottom: 40px;
+    }
+
+    .aboutus-section .imgwrap:before {
+        max-width: calc(100% - 60px);
+    }
+
+    .aboutus-section h1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .aboutus-section {
+        padding-top: 125px;
+    }
+
+    .aboutus-section h5 {
+        font-size: 18px;
+    }
+
+    .aboutus-section .imgwrap {
+        margin: 48px 0;
+    }
+
+    .aboutus-section {
+        padding-bottom: 40px;
+    }
+
+
+
+}

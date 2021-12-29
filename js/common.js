@@ -248,7 +248,16 @@ $(document).ready(function () {
     }
 
 
-
+    // course open - slider
+    var swiper7 = new Swiper(".course-opsl", {
+        slidesPerView: "auto",
+        spaceBetween: 10,
+        loop: true,
+        navigation: {
+            nextEl: '.swiper-button-next-unique.cop',
+            prevEl: '.swiper-button-prev-unique.cop'
+        },
+    });
 
 
 

@@ -283,7 +283,11 @@ $(document).ready(function () {
         },
     });
 
-
+    // FAQ
+    $('.accordeon__header').click(function () {
+        $(this).next('.accordeon__body').slideToggle();
+        $(this).toggleClass('open');
+    });
 
 
 

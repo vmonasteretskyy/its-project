@@ -163,6 +163,18 @@
     padding: 108px 0;
     position: relative;
 
+    h3 {
+        text-align: center;
+        margin-bottom: 64px;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 150%;
+        color: #A68861;
+        background: linear-gradient(90deg, #8F7047 -7%, #DABD9A 50.07%, #A58A63 105%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
     .limg {
         position: absolute;
         left: 0;
@@ -255,5 +267,285 @@
 
             background: url('../img/svg/icon-check.svg') no-repeat center / 100%;
         }
+    }
+}
+
+.course-fscreen h2 {
+    text-transform: uppercase;
+}
+
+.excellence {
+    padding: 108px 0;
+    position: relative;
+
+    .excellence__abspic {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    h3 {
+        text-align: center;
+        margin-bottom: 64px;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 150%;
+        color: #A68861;
+        background: linear-gradient(90deg, #8F7047 -7%, #DABD9A 50.07%, #A58A63 105%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    p {
+        margin-bottom: 30px;
+        color: #000;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 150%;
+        position: relative;
+        padding-left: 35px;
+
+        &:before {
+            content: '//';
+            display: inline-block;
+            font-size: 17px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: #A68861;
+            background: linear-gradient(90deg, #8F7047 -7%, #DABD9A 50.07%, #A58A63 105%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+        }
+
+        b {
+            font-weight: 600;
+        }
+
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.microneedling {
+    background: url(../img/bg1.jpg);
+    background-size: cover;
+    position: relative;
+    padding: 107px 0 121px;
+
+    &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: #000000;
+        opacity: 0.85;
+    }
+
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+
+    h3 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 150%;
+        color: #A68861;
+        background: linear-gradient(90deg, #8F7047 -7%, #DABD9A 50.07%, #A58A63 105%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 72px;
+    }
+
+    .col-lg-4 {
+        margin-bottom: 20px;
+    }
+}
+
+.module {
+    padding: 40px 37px;
+    background: url('../img/modulebg.png');
+    background-size: cover;
+    min-height: 360px;
+    height: 100%;
+
+
+    .title {
+        position: relative;
+        padding-left: 40px;
+        text-transform: uppercase;
+        color: #000;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 150%;
+        margin-bottom: 24px;
+
+        &:after {
+            content: '';
+            width: 25px;
+            height: 25px;
+            display: inline-block;
+            background: url('../img/svg/double-arrow.svg') no-repeat center / 100%;
+            position: absolute;
+            left: 0;
+            top: 3px;
+        }
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+            margin-bottom: 9px;
+            padding-left: 40px;
+            position: relative;
+            color: #000;
+            font-size: 16px;
+            line-height: 150%;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            &:after {
+                content: '';
+                display: inline-block;
+                border-radius: 50%;
+                width: 7px;
+                height: 7px;
+                background: linear-gradient(122.83deg, #8F7047 -18.24%, #DABD9A 49.75%, #A58A63 115.2%);
+                position: absolute;
+                left: 9px;
+                top: 8px;
+            }
+        }
+    }
+}
+
+.similar-courses {
+    background: url(../img/bg1.jpg);
+    background-size: cover;
+    position: relative;
+    padding: 107px 0 100px;
+
+    &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: #000000;
+        opacity: 0.85;
+    }
+
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+
+    h3 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 150%;
+        color: #A68861;
+        background: linear-gradient(90deg, #8F7047 -7%, #DABD9A 50.07%, #A58A63 105%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 52px;
+    }
+}
+
+.excellence__abspic {
+    z-index: -1;
+}
+
+.studentswilllearn h3,
+.course-infoblockpic h3 {
+    text-transform: uppercase;
+}
+
+
+@media(max-width:1600.8px) {
+    .course-fscreen h1 {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .course-fscreen .linetext {
+        font-size: 16px;
+    }
+
+    .course-fscreen .subtitle {
+        font-size: 16px;
+        max-width: 300px;
+    }
+
+    .course-fscreen a.gbtn {
+        font-size: 16px;
+    }
+
+    .course-fscreen h2 {
+        font-size: 24px;
+        max-width: 500px;
+        margin-bottom: 30px;
+    }
+
+    .course-fscreen ul li {
+        font-size: 16px;
+        padding-left: 30px;
+    }
+
+    .course-fscreen ul li:after {
+        width: 20px;
+        height: 20px;
+    }
+
+    .course-fscreen ul {
+        margin-bottom: 40px;
+    }
+
+    .excellence,
+    .studentswilllearn {
+        padding: 100px 0 70px;
+    }
+
+    .studentswilllearn .studentswilllearn__text {
+        font-size: 17px;
+        max-width: 400px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .excellence h3,
+    .studentswilllearn h3,
+    .course-infoblockpic h3 {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+    .excellence p {
+        font-size: 16px;
     }
 }

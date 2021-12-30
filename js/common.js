@@ -267,7 +267,21 @@ $(document).ready(function () {
         },
     });
 
-
+    var swiper8 = new Swiper(".course-opslrel", {
+        slidesPerView: "auto",
+        spaceBetween: 10,
+        breakpoints: {
+            320: {
+                slidesPerView: "1",
+            },
+            576: {
+                slidesPerView: "2",
+            },
+            992: {
+                slidesPerView: "3",
+            },
+        },
+    });
 
 
 
